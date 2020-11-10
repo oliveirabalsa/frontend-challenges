@@ -1,0 +1,17 @@
+{
+  "name": "frontend-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nodis-com-br/frontend-challenges.git",
+  "contributors": [
+    "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
+    "Yuri Azevedo <yuri.azevedo@nodis.com.br>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "database": "json-graphql-server db/index.js"
+  },
+  "dependencies": {
+    "json-graphql-server": "^2.1.3"
+  }
+}
