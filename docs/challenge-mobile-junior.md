@@ -1,9 +1,9 @@
 ## O Desafio
 
-O desafio consistem em criar uma aplicação mobile (React Native) que permita a navegação entre 2 telas, são elas:
+O desafio consiste em criar uma aplicação mobile (React Native) que permita a navegação entre 2 telas, são elas:
 
 - Home do app em que são listados todos os produtos;
-- Página de detalhes de um produto, onde seja possível editar os campos daquele determiado produto;
+- Página de detalhes de um produto, onde seja possível editar os campos daquele determinado produto;
 
 Na home, ao clicar em um produto, o usuário deve ser redirecionado para a página de detalhe do produto. Ao chegar no fim da listagem, deverá ser carregado mais produtos (scroll infinito). Também deverão ser tratados o casos: produto sem imagem; produto com preço promocional.
 
