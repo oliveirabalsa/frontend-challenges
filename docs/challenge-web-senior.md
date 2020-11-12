@@ -41,12 +41,12 @@ A API roda por padrão em http://localhost:3000/, caso você queira rodar em out
 - Utilizar [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow);
 - Utilizar [Typescript](https://www.typescriptlang.org/);
 - Estilização CSS-in-JS com [Styled components](https://styled-components.com/) ou [Emotion](https://emotion.sh/docs/introduction);
-- Testes unitários e de integração com [Jest](https://jestjs.io/docs/en/tutorial-react)) e [Testing Library](https://testing-library.com/docs/react-testing-library/intro/);
+- Testes unitários e de integração com [Jest](https://jestjs.io/docs/en/tutorial-react) e [Testing Library](https://testing-library.com/docs/react-testing-library/intro/);
 - Layout responsivo para mobile e desktop;
 - Utilizar a consulta de um produto específico (query **Sku**) na tela de detalhe;
 - [Manipulação de cache](https://www.apollographql.com/docs/react/caching/cache-interaction/) das requisições com Apollo Client;
 - Testes E2E (ex. [Cypress](https://www.cypress.io/));
-- i18n;
+- Internacionalização (i18n);
 - Tematização;
 
 ## O que avaliaremos do seu desafio

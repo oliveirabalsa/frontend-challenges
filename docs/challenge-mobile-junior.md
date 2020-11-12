@@ -5,7 +5,7 @@ O desafio consiste em criar uma aplicação mobile (React Native) que permita a 
 - Home do app em que são listados todos os produtos;
 - Página de detalhes de um produto, onde seja possível editar os campos daquele determinado produto;
 
-Na home, ao clicar em um produto, o usuário deve ser redirecionado para a página de detalhe do produto. Ao chegar no fim da listagem, deverá ser carregado mais produtos (scroll infinito). Também deverão ser tratados o casos: produto sem imagem; produto com preço promocional.
+Na home, ao clicar em um produto, o usuário deve ser redirecionado para a página de detalhe do produto. Ao chegar no fim da listagem, deverão ser carregados mais produtos (scroll infinito). Também deverão ser tratados o casos: produto sem imagem e produto com preço promocional.
 
 Na tela de detalhe do produto, o usuário deve poder editar o estoque, os preços do produto e a cubagem (dimensões do produto). Essa mudança deve refletir na listagem, caso seja necessário.
 
@@ -49,11 +49,14 @@ A API roda por padrão em http://localhost:3000/, caso você queira rodar em out
 
 - Utilizar [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow);
 - Utilizar [Typescript](https://www.typescriptlang.org/);
-- Estilização com [Styled components](https://styled-components.com/);
-- Utilizar lista virtualizada (ex. [FlatList](https://reactnative.dev/docs/flatlist));
+- Estilização CSS-in-JS com [Styled components](https://styled-components.com/) ou [Emotion](https://emotion.sh/docs/introduction);
+- Utilizar listas virtualizadas (ex. [FlatList](https://reactnative.dev/docs/flatlist));
 - Utilizar a consulta de um produto específico (query **Sku**) na tela de detalhe;
 - [Manipulação de cache](https://www.apollographql.com/docs/react/caching/cache-interaction/) das requisições com Apollo Client;
-- Testes automatizados (ex. [Jest](https://jestjs.io/docs/en/tutorial-react-native));
+- Testes unitários e de integração com [Jest](https://jestjs.io/docs/en/tutorial-react-native) e [Testing Library](https://callstack.github.io/react-native-testing-library/);
+- Testes E2E (ex. [Detox](https://github.com/wix/Detox/blob/master/docs/README.md/));
+- Internacionalização (i18n);
+- Tematização;
 
 ## Dicas
 
