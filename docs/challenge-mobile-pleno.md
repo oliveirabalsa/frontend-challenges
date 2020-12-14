@@ -5,7 +5,7 @@ O desafio consiste em criar uma aplicação mobile (React Native) que permita a 
 - Home do app em que são listados todos os produtos;
 - Página de detalhes de um produto, onde seja possível editar os campos daquele determinado produto;
 
-Na home, ao clicar em um produto, o usuário deve ser redirecionado para a página de detalhe do produto. Ao chegar no fim da listagem, deverão ser carregados mais produtos (scroll infinito). Também deverão ser tratados o casos: produto sem imagem e produto com preço promocional.
+Na home, ao clicar em um produto, o usuário deve ser redirecionado para a página de detalhe do produto. A listagem de produtos deve ser paginada, onde cada página deve possuir 10 produtos. Ao chegar no fim da listagem, deverão ser carregados mais produtos (scroll infinito). Também deverão ser tratados o casos: produto sem imagem e produto com preço promocional.
 
 Na tela de detalhe do produto, o usuário deve poder editar o estoque, os preços do produto e a cubagem (dimensões do produto). Essa mudança deve refletir na listagem, caso seja necessário.
 
