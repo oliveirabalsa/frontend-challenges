@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from 'react-router-dom'
 import {
   Container,
   PhotoContainer,
@@ -16,6 +17,7 @@ import { ProductCardProps } from './types'
 import Placeholder from "../../assets/image-placeholder.png";
 
 const ProductCard: React.FC<ProductCardProps> = ({
+  id,
   imageUrl,
   name,
   promotionalPrice,
@@ -25,8 +27,9 @@ const ProductCard: React.FC<ProductCardProps> = ({
   promotionalValue,
   promotionalCents,
 }: ProductCardProps) => {
+  const history = useHistory()
   return (
-    <Container>
+    <Container onClick={() => history.push(`/product/${id}`)}>
       <PhotoContainer>
         <Image src={imageUrl ? imageUrl : Placeholder} alt="" />
       </PhotoContainer>

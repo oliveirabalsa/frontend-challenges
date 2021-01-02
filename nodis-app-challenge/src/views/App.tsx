@@ -8,7 +8,6 @@ import "./App.css";
 const App: React.FC = (props) => (
   <ApolloProvider client={client}>
      <Router>
-      {/* <ProductDetails /> */}
       <Content />
     </Router>
   </ApolloProvider>

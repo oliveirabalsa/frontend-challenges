@@ -38,7 +38,6 @@ const handleProducts = (data: any) => {
 
     const [value, cents] = convertPrice(price);
     const [promotionalValue, promotionalCents] = convertPrice(promotionalPrice);
-
     const productParsed = {
       ...product,
       value,
@@ -47,7 +46,7 @@ const handleProducts = (data: any) => {
       promotionalCents,
     };
 
-    response.push(<ProductCard {...productParsed} />);
+    response.push(<ProductCard key={product.id} {...productParsed} />);
   }
   return response;
 };
@@ -55,7 +54,7 @@ const handleProducts = (data: any) => {
 const Home: React.FC = (props) => {
   const { loading, error, data } = useQuery(GET_PRODUCTS);
   return (
-    <div className="Home">
+    <div>
       <Title>Produtos</Title>
 
       {loading ? <Loading /> : handleProducts(data.allSkus)}
