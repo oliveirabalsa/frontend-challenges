@@ -4,6 +4,7 @@ import { useQuery, gql } from "@apollo/client";
 
 import ProductDetails from "../../views/pages/ProductDetails/ProductDetails";
 import ProductCard from "../ProductCard/ProductCard";
+import Loading from "../Loading/Loading";
 
 const GET_PRODUCTS = gql`
   query {
@@ -57,7 +58,7 @@ const Home: React.FC = (props) => {
     <div className="Home">
       <Title>Produtos</Title>
 
-      {loading ? <h1>Loading...</h1> : handleProducts(data.allSkus)}
+      {loading ? <Loading /> : handleProducts(data.allSkus)}
     </div>
   );
 };

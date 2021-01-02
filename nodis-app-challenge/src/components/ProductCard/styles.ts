@@ -43,7 +43,7 @@ export const Cents = styled.span`
   position: absolute;
   color: rgb(33, 43, 54);
   font-size: 7px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 20px;
 `;
 
