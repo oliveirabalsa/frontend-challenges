@@ -2,7 +2,6 @@ import React from "react";
 import { Title } from "./styles";
 import { useQuery, gql } from "@apollo/client";
 
-import ProductDetails from "../../views/pages/ProductDetails/ProductDetails";
 import ProductCard from "../ProductCard/ProductCard";
 import Loading from "../Loading/Loading";
 
@@ -45,6 +44,8 @@ const handleProducts = (data: any) => {
       promotionalValue,
       promotionalCents,
     };
+
+    console.log(product.id)
 
     response.push(<ProductCard key={product.id} {...productParsed} />);
   }
