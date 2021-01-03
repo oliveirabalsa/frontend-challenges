@@ -10,6 +10,7 @@
   "license": "MIT",
   "scripts": {
     "database": "json-graphql-server db/index.js",
+    "install:depedencies": "yarn && cd app && yarn",
     "start": "cd app && yarn start"
   },
   "dependencies": {

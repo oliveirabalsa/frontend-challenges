@@ -1,21 +1,49 @@
-# Desafio Nodis - Frontend
+<p align="center">
+	<h1 align="center">Desafio Nodis - Front-end :page_facing_up: :tm:</h1>
+</p>
 
-## Instruções Gerais
+<p align="center">
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-Licença">Licença</a>
+</p>
 
-Faça um fork deste repositório no Github, desenvolva seu código nele e ao final nos envie a URL para que possamos avaliar o resultado do desafio. Utilize o README para nos passar quaisquer informações que julgar interessante/necessárias como rodar o projeto, decisões tomadas, etc.
 
-Não definimos um tempo para o desafio ser feito, **é você quem deve nos passar uma data limite para a entrega do desafio**.
+## 🚀 Tecnologias
 
-## Selecione o desafio de acordo com a sua área e nível de senioridade
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### Mobile
+- [React.js](https://pt-br.reactjs.org/)
+- [Apollo](apollographql.com/docs/)
+- [Typescript](https://www.typescriptlang.org/)
 
-- [Júnior](./docs/challenge-mobile-junior.md)
-- [Pleno](./docs/challenge-mobile-pleno.md)
-- [Sênior](./docs/challenge-mobile-senior.md)
+## 💻 Projeto
 
-### Web
+# O desafio consiste em criar uma aplicação web (React) que permita a navegação entre 2 telas, são elas:
 
-- [Júnior](./docs/challenge-web-junior.md)
-- [Pleno](./docs/challenge-web-pleno.md)
-- [Sênior](./docs/challenge-web-senior.md)
+- Home do site em que são listados todos os produtos;
+- Página de detalhes de um produto, onde seja possível editar os campos daquele determinado produto;
+
+
+## 🤔 Como usar 
+
+- Clone o projeto.
+ YARN
+- Instale as dependencias com yarn install:dependencies.
+- Execute yarn database --p 3001 (ou uma outra porta exceto a 3000).
+- Execute yarn start.
+ NPM
+- Instale as dependencias na pasta raiz npm install, em seguida abra a pasta app e execute npm install novamente.
+- Execute npm run database --p 3001 (ou uma outra porta exceto a 3000).
+- Execute abra a pasta app e execute npm start.
+
+- Conecte no host local: `http://localhost:3000`.
+
+## :memo: Licença
+
+Este projeto está sob Licença MIT. Veja a documentação [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+<p align="center">Desenvolvido por <a href="https://www.linkedin.com/in/leonardo-balsalobre/">Leonardo Balsalobre</a> :copyright:
