@@ -9,7 +9,6 @@
   <a href="#memo-Licença">Licença</a>
 </p>
 
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -25,15 +24,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Home do site em que são listados todos os produtos;
 - Página de detalhes de um produto, onde seja possível editar os campos daquele determinado produto;
 
+## 🤔 Como usar
 
-## 🤔 Como usar 
+- Clone o projeto
 
-- Clone o projeto.
- YARN
+ <h2>YARN</h2>
+
 - Instale as dependencias com yarn install:dependencies.
 - Execute yarn database --p 3001 (ou uma outra porta exceto a 3000).
 - Execute yarn start.
- NPM
+
+ <h2>NPM</h2>
+
 - Instale as dependencias na pasta raiz npm install, em seguida abra a pasta app e execute npm install novamente.
 - Execute npm run database --p 3001 (ou uma outra porta exceto a 3000).
 - Execute abra a pasta app e execute npm start.
