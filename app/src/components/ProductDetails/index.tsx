@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery, gql } from "@apollo/client";
-import Loading from "../../components/Loading/Loading";
-import ProductDetailCard from "../../components/ProductDetailCard";
+import Loading from "../Loading/Loading";
+import ProductDetailCard from "../ProductDetailCard";
 import BackIcon from "../../assets/Icon.svg";
 import { Title, IconContainer } from "./styles";
 import { useHistory, useParams } from "react-router-dom";
