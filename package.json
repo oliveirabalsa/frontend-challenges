@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "database": "json-graphql-server db/index.js",
-    "start": "cd nodis-app-challenge && yarn start"
+    "start": "cd app && yarn start"
   },
   "dependencies": {
     "json-graphql-server": "^2.1.3"
