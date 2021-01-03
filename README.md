@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - Instale as dependencias na pasta raiz npm install, em seguida abra a pasta app e execute npm install novamente.
 - Execute npm run database --p 3001 (ou uma outra porta exceto a 3000).
-- Execute abra a pasta app e execute npm start.
+- Abra a pasta app e execute npm start.
 
 - Conecte no host local: `http://localhost:3000`.
 
