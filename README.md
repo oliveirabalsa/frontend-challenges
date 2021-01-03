@@ -33,6 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Instale as dependencias com yarn install:dependencies.
 - Execute yarn database --p 3001 (ou uma outra porta exceto a 3000).
 - Execute yarn start.
+- Conecte no host local: `http://localhost:3000`.
 
  <h2>NPM</h2>
 
