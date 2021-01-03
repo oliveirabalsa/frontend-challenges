@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-# O desafio consiste em criar uma aplicação web (React) que permita a navegação entre 2 telas, são elas:
+### O desafio consiste em criar uma aplicação web (React) que permita a navegação entre 2 telas, são elas:
 
 - Home do site em que são listados todos os produtos;
 - Página de detalhes de um produto, onde seja possível editar os campos daquele determinado produto;
